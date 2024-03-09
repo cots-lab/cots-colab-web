@@ -14,7 +14,7 @@
   height: 100vh;
  
   grid-template-columns: 0.25fr 1fr 1fr 1fr 1fr;
-  grid-template-rows: 0.25fr auto;
+  grid-template-rows: 0.15fr auto;
   grid-template-areas: 
             "nav nav nav nav nav"
             "sidebar main main main main";
@@ -34,7 +34,7 @@
 
 
 header {
-  background-color: yellow;
+  /* background-color: yellow; */
   grid-area: nav;
   box-shadow: 0 10px 10px black;
   

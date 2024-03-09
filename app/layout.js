@@ -14,11 +14,12 @@ const inter = Inter({ subsets: ["latin"] });
 // };
 
 const RootLayout = ({ children }) => {
-  // const isUserLoggedIn = true;
+  const isUserLoggedIn = false;
 
   const [open, setOpen] = useState(false);
   return (
     <html lang="en">
+      {isUserLoggedIn ? (
       <body>
         <main className="layout-with-sidebar layout relative z-0">
           <header className="">
@@ -43,6 +44,14 @@ const RootLayout = ({ children }) => {
           <section>{children}</section>
         </main>
       </body>
+      ) : (
+        <body>
+          <main className="layout-without-sidebar layout relative z-0">
+            {children}
+ 
+          </main>
+        </body>
+      )}
     </html>
   );
 };
