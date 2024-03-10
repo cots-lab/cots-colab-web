@@ -102,11 +102,13 @@ export default function Page() {
                     
                     <div className="flex items-center justify-center">   
                         <button
-                            className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline ml-2"
+                            className="bg-white border border-red-500 text-red-500 font-bold py-2 px-4 rounded-full focus:outline-none focus:shadow-outline ml-2"
                             type="submit"
                         >
-                            Register
-                        </button>
+                        Register
+                    </button>
+
+
                     </div>
                 </form>
             </div>
