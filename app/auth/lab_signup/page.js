@@ -7,9 +7,9 @@ import { RiLockPasswordFill } from "react-icons/ri";
 
 export default function Page() {
     return (
-        <div className="flex" style={{ backgroundColor: "#f4f4f4", margin: "0 40px" }}>
-            <div className="ml-20 mr-20 mt-10 mb-10 w-[960px] col-start-1 col-end-13">
-                <form className="register-form bg-white shadow-md rounded px-8 pt-6 pb-8 mb-4">
+        <div className="flex h-full w-full justify-start items-start" style={{ backgroundColor: ""}}>
+            <div className="ml-32 mr-20 mt-20 mb-10 w-[960px] col-start-1 col-end-13">
+                <form className="register-form bg-white shadow-xl rounded px-8 pt-6 pb-8 mb-4">
                     <div>
                         <h3 className="text-xl text-slate-500 flex items-center justify-end">
                             already have an account? Login
@@ -98,23 +98,22 @@ export default function Page() {
                             name="confirm_password"
                         />
                     </div>
-                    <hr className="w-full mb-5 mt-[-12px] border-gray-400"/>
+                    <hr className="w-full mb-5 mt-[-12px] border-gray-400"/> 
                     
                     <div className="flex items-center justify-center">   
                         <button
                             className="bg-white border border-red-500 text-red-500 font-bold py-2 px-4 rounded-full focus:outline-none focus:shadow-outline ml-2"
                             type="submit"
+                            style={{ borderRadius: "30%" }}
                         >
-                        Register
-                    </button>
-
-
+                            Register
+                        </button>
                     </div>
                 </form>
             </div>
 
             <div className="ml-20 mr-20 mt-10 mb-10">
-                <img src="/image/lab_signup.svg" alt="cotzz" width={500} height={600} className="border" style={{ borderStyle: "solid", borderWidth: "1px", borderColor: "black" }} />
+                <img src="/image/lab_signup.svg" alt="cotzz" width={500} height={600} className="border"  />
             </div>
         </div>
     );
