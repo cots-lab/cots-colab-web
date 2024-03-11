@@ -55,11 +55,10 @@ export default function Page() {
                 
                 <div className="flex items-center justify-center">   
                     <button
-                        className="bg-white border border-red-500 text-red-500 font-bold py-2 px-4 rounded-full focus:outline-none focus:shadow-outline ml-2"
+                        className="bg-white border border-red-500 text-red-500 font-bold py-1 px-4 rounded-full focus:outline-none focus:shadow-outline ml-2"
                         type="submit"
-                        style={{ borderRadius: "20%" }}
                     >
-                        Register
+                        NEXT
                     </button>
                 </div>
             </div>

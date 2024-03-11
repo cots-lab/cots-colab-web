@@ -104,7 +104,6 @@ export default function Page() {
                         <button
                             className="bg-white border border-red-500 text-red-500 font-bold py-2 px-4 rounded-full focus:outline-none focus:shadow-outline ml-2"
                             type="submit"
-                            style={{ borderRadius: "30%" }}
                         >
                             Register
                         </button>
